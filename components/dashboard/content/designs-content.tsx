@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useTransition } from "react";
-import { getProducts, getOrders, createProduct } from "@/lib/admin/actions";
+import { getProducts, getOrders, createProduct } from "@/app/admin/actions";
 import { TrendingUp, ShoppingBag, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
