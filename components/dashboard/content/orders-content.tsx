@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useTransition } from "react"
-import { getOrders, updateOrderStatus, createManualOrder, getProducts } from "@/lib/admin/actions"
+import { getOrders, updateOrderStatus, createManualOrder, getProducts } from "@/app/admin/actions"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
